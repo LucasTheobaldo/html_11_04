@@ -8,8 +8,7 @@
             background: url('Imagens/03.jpg');
             height: 20px;
             width: 20px;
-            display: block;
-            
+            display: block; 
         }
     </style>
     <title>html_11_04</title>
@@ -17,7 +16,7 @@
 <body>
 
     <header>
-        <h1>Soft skills</h1>
+        <h1><span class='icon'></span>Soft skills</h1>
     </header>
     
     <nav>
@@ -74,11 +73,19 @@
         <ol>
             <li>
                 <ul>
-                    <li><i class='icon'></i><a href="https://www.zendesk.com.br/blog/soft-skills-o-que-e/#"  target="_blank">O que é soft skill e para que serve? 14 exemplos de habilidades</a></li>
+                    <li><a href="https://www.zendesk.com.br/blog/soft-skills-o-que-e/#"  target="_blank">O que é soft skill e para que serve? 14 exemplos de habilidades</a></li>
                     <li><a href="https://sebrae.com.br/sites/PortalSebrae/artigos/voce-sabe-o-que-sao-soft-skills,dd08aa5148f55810VgnVCM100000d701210aRCRD"  target="_blank">Você sabe o que são soft skills?</a></li>
                 </ul>
             </li>
         </ol>
+        <form>
+            <label for="username">Usuário:</label><br>
+            <input type="text" id="username" name="username" placeholder="" required><br>
+
+            <br> <!--quebra de linha-->
+            <br>
+            <input type="submit" value="Enviar">
+            </form>
     </footer>
 </body>
 </html>
